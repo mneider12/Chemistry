@@ -1,4 +1,4 @@
-package models.atom
+package org.example.models.atom
 
 enum class Symbol(val value: String) {
     H("H"), HE("He"), LI("Li"), BE("Be"), B("B"), C("C"), N("N"),
