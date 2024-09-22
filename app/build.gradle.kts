@@ -22,6 +22,9 @@ dependencies {
     // Use the Kotlin JUnit 5 integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 
+    // Parameterized testing
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.1.0")
+
     // Use the JUnit 5 integration.
     testImplementation(libs.junit.jupiter.engine)
 
@@ -40,7 +43,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.AppKt"
+    mainClass = "com.nydev.AppKt"
 }
 
 tasks.named<Test>("test") {
